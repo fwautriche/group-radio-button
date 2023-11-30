@@ -39,10 +39,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "development": {
-              "buildTarget": "demo:build:development"
+              "browserTarget": "demo:build:development"
             },
             "production": {
-              "buildTarget": "demo:build:production"
+              "browserTarget": "demo:build:production"
             }
           },
           "defaultConfiguration": "development"
